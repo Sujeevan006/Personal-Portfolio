@@ -71,23 +71,23 @@ export default function Projects() {
         {projects.map((project: any, projectindex: any) => (
           <div
             key={projectindex}
-            className="flex flex-col xl:flex-row w-fit bg-[#00558f] bg-opacity-20 backdrop-blur-lg border-2 border-[#00558f] rounded-xl p-4"
+            className="flex flex-col xl:flex-row w-auto bg-[#00558f] bg-opacity-20 backdrop-blur-lg border-2 border-[#00558f] rounded-xl p-4 gap-4"
           >
             <div className="flex flex-col w-full h-full justify-center items-center">
               <Image
                 src={project?.image}
                 alt={`Project Image-1`}
-                className="rounded-lg"
+                className="rounded-lg w-full h-full"
               />
             </div>
             <div className="space-y-10">
               <div className="space-y-6 ">
-                <h4 className=" bg-yellow-600">{project?.title}</h4>
-                <p className="text-justify bg-gray-700">
+                <h4 className="">{project?.title}</h4>
+                <p className="text-justify">
                   {project?.description}
                 </p>
               </div>
-              <div className="flex flex-wrap justify-between w-full items-center bg-green-600">
+              <div className="flex flex-wrap justify-between w-full items-center space-y-4">
                 <label>Tools and Technologies used</label>
                 {tools.map((tool: any, toolindex: any) => (
                   <div
