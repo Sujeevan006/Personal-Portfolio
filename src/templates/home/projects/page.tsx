@@ -18,24 +18,24 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Speed Code Labs - Website",
+    title: "Software Company - Website",
     image: ProjectImage1,
     description:
-      "The Speed Code Labs website is a modern platform highlighting the company's services and expertise. With its responsive design, intuitive interface, and SEO optimization, it offers a seamless browsing experience while effectively showcasing Speed Code Labs' capabilities to potential clients.",
+      "The Software Company Website is a modern platform highlighting the company's services and expertise. With its responsive design, intuitive interface, and SEO optimization, it offers a seamless browsing experience while effectively showcasing Software Company' capabilities to potential clients.",
   },
 
   {
-    title: "Speed Code Labs - Website",
+    title: "Software Company - Website",
     image: ProjectImage1,
     description:
-      "The Speed Code Labs website is a modern platform highlighting the company's services and expertise. With its responsive design, intuitive interface, and SEO optimization, it offers a seamless browsing experience while effectively showcasing Speed Code Labs' capabilities to potential clients.",
+      "The Software Company Website is a modern platform highlighting the company's services and expertise. With its responsive design, intuitive interface, and SEO optimization, it offers a seamless browsing experience while effectively showcasing Software Company' capabilities to potential clients.",
   },
 
   {
-    title: "Speed Code Labs - Website",
+    title: "Software Company - Website",
     image: ProjectImage1,
     description:
-      "The Speed Code Labs website is a modern platform highlighting the company's services and expertise. With its responsive design, intuitive interface, and SEO optimization, it offers a seamless browsing experience while effectively showcasing Speed Code Labs' capabilities to potential clients.",
+      "The Software Company Website is a modern platform highlighting the company's services and expertise. With its responsive design, intuitive interface, and SEO optimization, it offers a seamless browsing experience while effectively showcasing Software Company' capabilities to potential clients.",
   },
 ];
 
@@ -83,9 +83,7 @@ export default function Projects() {
             <div className="space-y-10">
               <div className="space-y-6 ">
                 <h4 className="">{project?.title}</h4>
-                <p className="text-justify">
-                  {project?.description}
-                </p>
+                <p className="text-justify">{project?.description}</p>
               </div>
               <div className="flex flex-wrap justify-between w-full items-center space-y-4">
                 <label>Tools and Technologies used</label>
