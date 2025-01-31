@@ -13,7 +13,7 @@ const reviews: Review[] = [
   {
     image: ReviewerImg1,
     name: "Nakarasan",
-    about: "CEO - Speed Code Labs",
+    about: "Senior software Engineer",
     message:
       "Sujeevan has been a standout UI/UX designer for us. His innovative designs and user-focused approach have consistently exceeded our expectations. He is a collaborative team player with a keen eye for detail. Highly recommended!",
   },
@@ -21,7 +21,7 @@ const reviews: Review[] = [
   {
     image: ReviewerImg1,
     name: "Nakarasan",
-    about: "CEO - Speed Code Labs",
+    about: "Senior software Engineer",
     message:
       "Sujeevan has been a standout UI/UX designer for us. His innovative designs and user-focused approach have consistently exceeded our expectations. He is a collaborative team player with a keen eye for detail. Highly recommended!",
   },
